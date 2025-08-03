@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #2d2d2d;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 24px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  height: 650px; 
+  background-image: url('images/myphoto.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  color: #fff;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 32px;
+}
+
+.hero-text p {
+  margin: 10px 0 20px;
+  color:orange;
+  font-size: 20px;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.btn {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  background: #fff;
+}
+
+.about-img img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.about-text {
+  margin-left: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2d2d2d;
+  color: #fff;
+}
+
+section {
+  padding: 40px;
+  background: #fff;
+  margin: 20px 0;
+}
+
+.skills ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.projects .project {
+  margin-bottom: 20px;
+}
+
+.resume, .contact {
+  background: #f0f0f0;
+  padding: 40px;
+}
+
+.resume .btn {
+  margin-top: 10px;
+}
